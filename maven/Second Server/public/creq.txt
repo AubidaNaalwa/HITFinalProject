@@ -1,0 +1,7 @@
+{
+  "threeDSServerTransID" : "522924425",
+  "acsTransId" : "zYpl65dosIILfLUhGBJzqpkhwaKfcWJnvk9J",
+  "challengeWindowSize" : "05",
+  "messageType" : "CReq",
+  "messageVersion" : "2.2.0"
+}
