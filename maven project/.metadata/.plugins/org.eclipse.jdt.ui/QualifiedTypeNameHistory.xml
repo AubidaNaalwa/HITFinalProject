@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="DataToWrite.ARes"/>
+    <fullyQualifiedTypeName name="DataToWrite.AReq"/>
+    <fullyQualifiedTypeName name="java.net.HttpURLConnection"/>
+    <fullyQualifiedTypeName name="java.net.URL"/>
+    <fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="DataToWrite.CReq"/>
+    <fullyQualifiedTypeName name="JasonEditor.Jackson"/>
+</qualifiedTypeNameHistroy>
