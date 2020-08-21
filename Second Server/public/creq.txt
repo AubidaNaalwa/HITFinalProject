@@ -1,0 +1,7 @@
+{
+  "threeDSServerTransID" : "1234",
+  "acsTransId" : "1",
+  "challengeWindowSize" : "2",
+  "messageType" : "3",
+  "messageVersion" : "5"
+}
