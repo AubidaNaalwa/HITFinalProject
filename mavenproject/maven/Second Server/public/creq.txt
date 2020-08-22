@@ -1,6 +1,6 @@
 {
   "threeDSServerTransID" : "522924425",
-  "acsTransId" : "tIa2zAZk6xHpKTPDhafbjY6cCtK7KFWIpH9l",
+  "acsTransId" : "mG4mWbfVLbTDYCQJtTokOwjSjMOlKYFEANBc",
   "challengeWindowSize" : "05",
   "messageType" : "CReq",
   "messageVersion" : "2.2.0"
