@@ -96,7 +96,7 @@ public class MultiThreadServer {
 						sql.addCReq(creq);
 						h.sendinformationtohttp(Integer.toString(pass), jk.fromCReqToJson(creq));
 					} catch (Exception e) {
-						
+						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
                 	
@@ -106,10 +106,10 @@ public class MultiThreadServer {
             } catch (IOException e) {
                 e.printStackTrace();
             } catch (ClassNotFoundException e) {
-				
+				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} catch (SQLException e) {
-			
+				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} finally {
                 try {

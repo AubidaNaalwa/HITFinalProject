@@ -106,7 +106,7 @@ public class JsonWriterAndReader {
 				try {
 					A.add((String)ois.readObject());
 				} catch (ClassNotFoundException e) {
-					
+					// TODO Auto-generated catch block
 					System.out.println("End OF File\n");
 					break;
 				}
@@ -134,7 +134,7 @@ public class JsonWriterAndReader {
 				try {
 					A.add((String)ois.readObject());
 				} catch (ClassNotFoundException e) {
-					
+					// TODO Auto-generated catch block
 					System.out.println("End OF File\n");
 					break;
 				}
