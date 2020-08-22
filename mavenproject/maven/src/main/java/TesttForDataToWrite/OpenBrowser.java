@@ -26,6 +26,6 @@ public class OpenBrowser {
 		
 }
 	public static String getURL() {
-		return "http://fd719fe8ca31.ngrok.io";
+		return "http://87440337bd91.ngrok.io";
 	}
 }

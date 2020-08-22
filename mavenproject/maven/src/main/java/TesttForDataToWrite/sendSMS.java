@@ -7,6 +7,7 @@ import java.net.URLConnection;
 import java.net.URLEncoder;
 
 
+
 public class sendSMS {
 
 		public void send(String phone,int rand) throws Exception{
@@ -14,7 +15,7 @@ public class sendSMS {
 			String URL = OpenBrowser.getURL();
 			String message = new String("your Code is : "+ rand +" \nEnter the to the URL: \n" + URL );
 			
-			
+			Httpsend httpsend = new Httpsend();
 			String PhoneNumber = new String ("972");
 			if(phone.length() == 10 ) { 
 				PhoneNumber += phone.substring(1);
@@ -32,6 +33,7 @@ public class sendSMS {
 			URLConnection connection = url.openConnection();
 			BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
 			String inputLine;
+			httpsend.sendinformationtohttp(Integer.toString(rand), "");
 			while((inputLine = bufferedReader.readLine()) !=null){
 			    System.out.println(inputLine);
 			}

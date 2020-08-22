@@ -27,133 +27,54 @@
     </dependency>
   
 
-   <dependency>
-       <groupId>jackson-annotations-2.10.3</groupId>
-       <artifactId>jackson-annotations-2.10.3</artifactId>
-       <scope>system</scope>
-       <version>2.10.3</version>
-       <systemPath>${basedir}\EchoClient_lib\jackson-annotations-2.10.3.jar</systemPath>
-    </dependency>
+ <dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-annotations</artifactId>
+    <version>2.10.3</version>
+</dependency>
     
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-core</artifactId>
+    <version>2.10.3</version>
+</dependency>
     
-      <dependency>
-       <groupId>jackson-core-2.10.3</groupId>
-       <artifactId>jackson-core-2.10.3</artifactId>
-       <scope>system</scope>
-       <version>2.10.3</version>
-       <systemPath>${basedir}\EchoClient_lib\jackson-core-2.10.3.jar</systemPath>
-    </dependency>
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.10.3</version>
+</dependency>
     
-    <dependency>
-       <groupId>jackson-databind-2.10.3</groupId>
-       <artifactId>jackson-databind-2.10.3</artifactId>
-       <scope>system</scope>
-       <version>2.10.3</version>
-       <systemPath>${basedir}\EchoClient_lib\jackson-databind-2.10.3.jar</systemPath>
-    </dependency>
-    
-    <dependency>
-       <groupId>activation</groupId>
-       <artifactId>activation</artifactId>
-       <scope>system</scope>
-       <version>1.0.2</version>
-       <systemPath>${basedir}\EchoClient_lib\activation.jar</systemPath>
-    </dependency>
-    
-    <dependency>
-       <groupId>mail</groupId>
-       <artifactId>mail</artifactId>
-       <scope>system</scope>
-       <version>1.4.3</version>
-       <systemPath>${basedir}\EchoClient_lib\mail.jar</systemPath>
-    </dependency>
-    
-    <dependency>
-       <groupId>mysql-connector</groupId>
-       <artifactId>mysql-connector</artifactId>
-       <scope>system</scope>
-       <version>5.0.8</version>
-       <systemPath>${basedir}\EchoClient_lib\mysql-connector.jar</systemPath>
-    </dependency>
 
-    <dependency>
-       <groupId>mysql-connector-java-5.1.48</groupId>
-       <artifactId>mysql-connector-java-5.1.48</artifactId>
-       <scope>system</scope>
-       <version>5.1.48</version>
-       <systemPath>${basedir}\EchoClient_lib\mysql-connector-java-5.1.48.jar</systemPath>
-    </dependency>  
     
-   <dependency>
-       <groupId>mysql-connector-java-5.1.48-bin</groupId>
-       <artifactId>mysql-connector-java-5.1.48-bin</artifactId>
-       <scope>system</scope>
-       <version>5.1.48</version>
-       <systemPath>${basedir}\EchoClient_lib\mysql-connector-java-5.1.48-bin.jar</systemPath>
-    </dependency> 
+<dependency>
+    <groupId>javax.mail</groupId>
+    <artifactId>mail</artifactId>
+    <version>1.4.3</version>
+</dependency>
+
     
-   <dependency>
-       <groupId>ojdbc6</groupId>
-       <artifactId>ojdbc6</artifactId>
-       <scope>system</scope>
-       <version>12.1.0.1.0</version>
-       <systemPath>${basedir}\EchoClient_lib\ojdbc6.jar</systemPath>
-    </dependency>       
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>5.0.8</version>
+</dependency>
+
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>5.1.48</version>
+</dependency>
     
-    <dependency>
-       <groupId>ojdbc7</groupId>
-       <artifactId>ojdbc7</artifactId>
-       <scope>system</scope>
-       <version>12.1.0.1.0</version>
-       <systemPath>${basedir}\EchoClient_lib\ojdbc7.jar</systemPath>
-    </dependency>   
-       
-    <dependency>
-       <groupId>ons</groupId>
-       <artifactId>ons</artifactId>
-       <scope>system</scope>
-       <version>12.1.0</version>
-       <systemPath>${basedir}\EchoClient_lib\ons.jar</systemPath>
-    </dependency>   
-	   
-	<dependency>
-	       <groupId>ons</groupId>
-	       <artifactId>ons</artifactId>
-	       <scope>system</scope>
-	       <version> 12.1.0</version>
-	       <systemPath>${basedir}\EchoClient_lib\ons.jar</systemPath>
-	    </dependency> 
-	    <dependency>
-	       <groupId>orai18n</groupId>
-	       <artifactId>orai18n</artifactId>
-	       <scope>system</scope>
-	       <version> 12.1.0.1.0-Production__Build-12</version>
-	       <systemPath>${basedir}\EchoClient_lib\orai18n.jar</systemPath>
-	    </dependency>  
-	       
-     <dependency>
-       <groupId>OzekiSmsClient</groupId>
-       <artifactId>OzekiSmsClient</artifactId>
-       <scope>system</scope>
-       <version> 2.7</version>
-       <systemPath>${basedir}\EchoClient_lib\OzekiSmsClient.jar</systemPath>
-    </dependency>     
     
-   <dependency>
-       <groupId>sqlite-jdbc-3.7.2</groupId>
-       <artifactId>sqlite-jdbc-3.7.2</artifactId>
-       <scope>system</scope>
-       <version>3.7.2</version>
-       <systemPath>${basedir}\EchoClient_lib\sqlite-jdbc-3.7.2.jar</systemPath>
-    </dependency>
+   
+		       
     
-   <dependency>
-       <groupId>ucp</groupId>
-       <artifactId>ucp</artifactId>
-       <scope>system</scope>
-       <version>12.1.0.0.0</version>
-       <systemPath>${basedir}\EchoClient_lib\ucp.jar</systemPath>
-    </dependency>
+		<dependency>
+		    <groupId>org.xerial</groupId>
+		    <artifactId>sqlite-jdbc</artifactId>
+		    <version>3.7.2</version>
+		</dependency>
 
    </dependencies>
 
