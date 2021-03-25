@@ -10,3 +10,6 @@ you can download it from google play or github https://github.com/sadiqodho/GSM-
 7- run the server.
 8- run the client interface. 
 9- now its ready for you enjoy.
+
+
+.
